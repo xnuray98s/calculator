@@ -21,11 +21,10 @@ function divide(a, b) {
     return a / b;
 }
 function display(show) {
-    if(show == 0){}
-    else{
-        if(screen.value == 0){
-            screen.value="";
-        }
+    if(screen.value == 0){
+        screen.value="";
+        screen.value += show;
+    }else{
         screen.value += show;}
     
 }
