@@ -40,6 +40,9 @@ body{
     justify-items: left;
     align-items: center;
 }
+.num{
+    background-color: #f3f3f3;
+}
 
 .control{
    background-color: #E34A59;
