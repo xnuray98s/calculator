@@ -40,7 +40,7 @@ body{
     justify-items: left;
     align-items: center;
 }
-.num{
+.num, #dot{
     background-color: #f3f3f3;
 }
 
