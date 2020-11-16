@@ -110,6 +110,7 @@ control.forEach((button) => {
             screen.value = 0;
         }
         else if (ctrl === "+/-") {
+            display(0);
             display(parseFloat(screen.value) * -1);
         }
         else if(ctrl === "%"){
